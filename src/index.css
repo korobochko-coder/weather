@@ -23,3 +23,9 @@ code {
   border: solid 0.5px white;
   border-radius: 15px;
 }
+
+.LocationButton {
+  border: hidden;
+  background-color: black;
+  color: white;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import SearchEngine from "./SearchEngine";
+import CurrentLocation from "./CurrentLocation";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -9,6 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <SearchEngine />
+    <CurrentLocation />
   </React.StrictMode>
 );
 
