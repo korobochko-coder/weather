@@ -9,8 +9,20 @@ import "bootstrap/dist/css/bootstrap.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SearchEngine />
-    <CurrentLocation />
+    <div className="WeatherAppContainer">
+      <div className="container text-center">
+        <div className="row">
+          <div className="d-flex justify-content-center">
+            <div className="col-sm-6">
+              <SearchEngine />
+            </div>
+            <div className="col-sm-6">
+              <CurrentLocation />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </React.StrictMode>
 );
 

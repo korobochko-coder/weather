@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.WeatherAppContainer {
+  background-color: black;
+  padding: 30px 40px;
+  border-radius: 20px;
+}
+
 #search {
   background-color: black;
   border: hidden;
