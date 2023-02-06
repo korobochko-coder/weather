@@ -4,6 +4,7 @@ import "./index.css";
 import SearchEngine from "./SearchEngine";
 import CurrentLocation from "./CurrentLocation";
 import CurrentWeather from "./CurrentWeather";
+import Forecast from "./Forecast";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -30,6 +31,20 @@ root.render(
         sunriseTime="6:08"
         sunsetTime="20:50"
       />
+      <div className="row">
+        <div className="col-sm-3">
+          <Forecast day="Monday" temperature="19°" />
+        </div>
+        <div className="col-sm-3">
+          <Forecast day="Tuesday" temperature="16°" />
+        </div>
+        <div className="col-sm-3">
+          <Forecast day="Wednesday" temperature="17°" />
+        </div>
+        <div className="col-sm-3">
+          <Forecast day="Thursday" temperature="15°" />
+        </div>
+      </div>
     </div>
   </React.StrictMode>
 );

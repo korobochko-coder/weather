@@ -61,3 +61,13 @@ code {
   text-align: left;
   padding-left: 20px;
 }
+
+#Forecast {
+  color: white;
+  list-style: none;
+  font-size: x-small;
+  padding-top: 30px;
+  background: #101015;
+  border-radius: 20px;
+  text-align: center;
+}
