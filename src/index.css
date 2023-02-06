@@ -35,3 +35,29 @@ code {
   background-color: black;
   color: white;
 }
+
+.CurrentWeather {
+  background-color: #bad7eb;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+#DayAndTime {
+  padding: 20px 10px 10px;
+  color: black;
+}
+
+#CurrentTemperature {
+  color: black;
+  font-size: 60px;
+  padding-top: 10px;
+}
+
+#CurrentWeather,
+#Sun {
+  list-style: none;
+  font-size: x-small;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+}

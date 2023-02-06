@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import SearchEngine from "./SearchEngine";
 import CurrentLocation from "./CurrentLocation";
+import CurrentWeather from "./CurrentWeather";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -22,6 +23,13 @@ root.render(
           </div>
         </div>
       </div>
+      <CurrentWeather
+        description="Sunny"
+        humidity="58%"
+        wind="5km/h"
+        sunriseTime="6:08"
+        sunsetTime="20:50"
+      />
     </div>
   </React.StrictMode>
 );
